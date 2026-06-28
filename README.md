@@ -6,7 +6,16 @@ Signed & notarized macOS builds of **Ponder**, a local-first LLM-Wiki second bra
 ## What it looks like
 
 ![Ponder — wiki browser and embedded Claude Code terminal](media/hero.png)
-*Claude Code is the brain — it reads your sources and builds an interlinked wiki, and you review every change.*
+*Claude Code is the brain — it reads your sources and builds the wiki, and you review every change.*
+
+![Review gate — git diff with accept / reject](media/review.png)
+*Nothing changes without your OK — review every edit as a git diff. Accept to snapshot, reject to discard.*
+
+![Drag and drop a source to ingest](media/dropzone.png)
+*Drop a source onto the window — Claude Code reads it and builds the pages.*
+
+![Time-travel a page to a past snapshot](media/timetravel.png)
+*Your whole wiki is a git repo — travel back to any past snapshot of any page.*
 
 ![Interlinked wiki](media/wiki.png)
 *An interlinked wiki: backlinks, tags, and health checks (orphans · dead links · contradictions).*
@@ -16,9 +25,6 @@ Signed & notarized macOS builds of **Ponder**, a local-first LLM-Wiki second bra
 
 ![Command palette](media/palette.gif)
 *Keyboard-driven: ⌘P to jump to any page or run a command.*
-
-![History and review](media/history.png)
-*Every change is a reviewable git diff — accept, reject, or time-travel.*
 
 ## Download
 
