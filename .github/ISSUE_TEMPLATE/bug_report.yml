@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in the Ponder app is broken or behaving wrong.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for trying Ponder! A few details help a lot.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Ponder version
+      description: Shown next to "Ponder" in the app header (e.g. v0.1.21).
+      placeholder: v0.1.21
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: e.g. 15.3 (Apple Silicon)
+  - type: dropdown
+    id: claude
+    attributes:
+      label: Is the claude CLI installed and logged in?
+      options:
+        - "Yes"
+        - "No"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Logs / screenshots (optional)
+      description: Drag in a screenshot or paste terminal output. Please redact anything private (emails, paths, tokens).

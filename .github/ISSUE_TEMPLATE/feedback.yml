@@ -1,0 +1,19 @@
+name: Feedback / idea
+description: A feature request, rough edge, or general impression.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: Ponder is early and personal — your feedback genuinely shapes it. Thank you.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea or feedback
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you trying to do? (the use case)
+      description: The problem behind the request helps more than a specific solution.
